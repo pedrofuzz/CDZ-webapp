@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.15);
+}
+
+.logo {
+    font-size: 32px;
+    margin-right: 60px;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.account {
+    color: rgb(70, 70, 70);
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+}
+
+.searchBar button{
+    width: 50px;
+    height: 48px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: white;
+    border-radius: 15px;
+}
+
+.searchInput {
+    width: 80%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.searchInput:focus {
+    outline: none;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 92%;
+    box-sizing: border-box;
+}
+
+.content #thumb{
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    object-fit: contain;
+}
+
+.content .info {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .info #title {
+    font-size: 42px;
+    margin: 0;
+}
+
+.content .info #description {
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+}
+
+.content .info #owner {
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+    color: goldenrod;
+}
